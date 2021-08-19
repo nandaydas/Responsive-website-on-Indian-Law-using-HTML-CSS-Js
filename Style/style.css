@@ -208,7 +208,11 @@
 
 /* Laws Page */
 #laws{
+  text-align: center;
   background-color: #FAFBFC;
+}
+#laws h3{
+  margin-top: 15px;
 }
 #laws .accordion {
   background-color: #e6ecf2;
