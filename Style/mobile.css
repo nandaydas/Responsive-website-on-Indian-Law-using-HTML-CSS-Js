@@ -5,11 +5,12 @@ nav .logo{
     width: 100%;
   }
 nav .logo h1{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    line-height: 60px;
   }
-.icon-image{
-    width: 45px;
-  }
+.logo img{
+  height: 30px;
+}
 .menu-items{
     width: 100%;
   }
@@ -32,7 +33,7 @@ nav ul li a {
   }
 
 .h_primary{
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 section{
