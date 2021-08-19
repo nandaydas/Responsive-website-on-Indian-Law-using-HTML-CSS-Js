@@ -41,6 +41,9 @@ section{
     flex-wrap: wrap;
     padding: 20px 10px;
 }
+#Section1 img{
+  margin: 50px auto;
+}
 #Section1 div{
   text-align: center;
 }
