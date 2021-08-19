@@ -42,7 +42,9 @@ section{
 #Section1{
     flex-wrap: wrap;
     padding: 20px 10px;
-    justify-content: center;
+}
+#Section1 div{
+  text-align: center;
 }
 #div1{
   width: auto;
