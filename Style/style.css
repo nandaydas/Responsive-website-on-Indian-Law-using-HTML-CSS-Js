@@ -1,0 +1,271 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+  }
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003C7D;
+    top: 0px;
+    left: 0px;
+    position: sticky;
+    padding: 0% 5%;
+    box-shadow: 0 0 5px black;
+  }
+.logo{
+  display: flex;
+}
+.logo img{
+  margin: auto 10px;
+  height: 40px;
+}
+  nav h1{
+    color: white;
+    font-size: 2rem;
+    line-height: 70px;
+    cursor: pointer;
+  }
+  nav ul{
+    display: flex;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline;
+  }
+  nav .active, nav ul li:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+  }
+  
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 1.1rem;
+    line-height: 70px;
+  }
+  .burger{
+    padding: 5px 8px;
+    color: white;
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 11px;
+    border-radius: 5px;
+  }
+  .burger i{
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 50px 100px;
+  }
+#Section1{
+    display: flex;
+    background-image: url('../Images/background-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#div1{
+    vertical-align: bottom;
+    width: 50%;
+  }
+#div1 img{
+    width: 60%;
+    margin: 0 auto;
+  }
+#div2{
+    margin: auto 10px;
+    width: 50%;
+  }
+#div2 h2{
+    font-size: 2.5rem;
+  }
+#Action_Button {
+    margin: 10px 0px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #003C7D;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+  }
+#Action_Button:hover{
+    font-size: 16.5px;
+    box-shadow: 0px 0px 5px black;
+    transition: 0.3s;
+  }
+
+  #Section3{
+    text-align: center;
+    background-color: #FAFBFC;
+  }
+  #Section3 h2{
+    margin: 25px 0px;
+    font-size: 2.5rem;
+  }
+  #Section3 p{
+    font-size: 1rem;
+    color: rgb(41, 41, 41);
+  }
+  #Section3 h3{
+    font-size: 1.5rem;
+  }
+  .Feature_Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .Feature_Sub, .terms{
+    flex: 1 1 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: #243B56;
+    background-color: White;
+    border: 1px dotted rgba(44,62,80,0.2);
+    box-shadow: 5px 5px 20px 2px rgba(36, 59, 86, 0.05);
+  }
+  .Feature_Sub:hover{
+    transition: 0.5s;
+    box-shadow: 5px 5px 20px 2px #ccd8e5;
+  }
+  .Feature_Sub img{
+    padding: 1rem;
+    height: 7rem;
+  }
+
+  .Feature_Sub h3{
+    margin-bottom: 10px;
+  }
+
+  footer {
+    background-color: #003C7D;
+    box-shadow: -0px -0px 5px black;
+  }
+  #footer_devider {
+    padding: 0px 75px;
+    display: flex;
+  }
+  .footer_box {
+    padding: 20px 20px;
+    color: white;
+  }
+  #f1{
+    width: 50%;
+  }
+  #f2{
+    width: 25%;
+  }
+  #f3{
+    width: 25%;
+  }
+  .footer_box h4 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .footer_box li {
+    padding: 5px 0px;
+    list-style: none;
+  }
+  .footer_box li a {
+    margin: 5px 0px;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: white;
+  }
+  footer a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+  }
+  #Recent_updates p {
+    padding: 5px 5px 5px 0px;
+  }
+  .footer_box h5 {
+    margin-top: 10px;
+  }
+  #Footer_Credit {
+    padding: 10px 10px;
+    background-color: #003671;
+  }
+  #Footer_Credit p {
+    text-align: center;
+    color: white;
+  }
+  div p a{
+    color: white;
+    text-decoration: none;
+  }
+
+/* Laws Page */
+#laws{
+  background-color: #FAFBFC;
+}
+#laws .accordion {
+  background-color: #e6ecf2;
+  color: #243B56;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+#laws button{
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+#laws .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+#laws .accordion:after {
+  content: "\02795";
+  font-size: 10px;
+  color: #243B56;
+  float: right;
+  margin-left: 5px;
+}
+
+#laws .active:after {
+  content: "\2796";
+  font-size: 10px;
+}
+#laws .panel p{
+  margin: 10px 2px;
+}
+
+.pages{
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: #FAFBFC;
+}
+
+.pages a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pages a.active {
+  background-color: #003C7D;
+  color: white;
+  border-radius: 5px;
+}

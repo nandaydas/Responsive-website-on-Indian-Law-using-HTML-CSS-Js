@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Law</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 720px)" href="Style/mobile.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav class="container">
+        <div class="logo">
+            <img src="Images/balance_white.png" alt="IndianLaw">
+            <h1 class="logo">IndianLaw</h1>
+        </div>
+
+        <ul class="menu-items hide-menu">
+            <li><a class=active href="index.html">Home</a></li>
+            <li><a href="laws.html">All Laws</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+        </ul>
+
+        <div class="burger">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </nav>
+
+    <section id="Section1">
+        <div id="div1">
+            <img src="Images/justise lady.jpg" alt="heroImage">
+        </div>
+        <div id="div2">
+            <h2>The Law always limits every Power it Gives</h2>
+            <p>Our site is build to help people stay aware of legal laws of India</p>
+            <a href="#Section3"><button id="Action_Button">All Laws</button></a>
+        </div>
+    </section>
+
+    <section id="Section3">
+        <h2 class="h_primary">Important Features of Indian Constitution</h2>
+        <div class="Feature_Main">
+            <div class="Feature_Sub">
+                <img src="Images/international-delivery.png" alt="World's Longest Constitution">
+                <h3>World's Longest Constitution</h3>
+                <p>The Indian Constitution contains 395 articles and 12 schedules, making it the world's longest written
+                    constitution.</p>
+            </div>
+
+            <div class="Feature_Sub">
+                <img src="Images/sourcing.png" alt="Taken from various sources">
+                <h3>Taken from various sources</h3>
+                <p>The Indian Constitution was framed from multiple sources including the 1935 Government of India Act
+                    and Other Countries Constitutions.</p>
+            </div>
+
+            <div class="Feature_Sub">
+                <img src="Images/water-system.png" alt="System with Unitary Features">
+                <h3>System with Unitary Features</h3>
+                <p>Federal System with Unitar The Indian Constitution includes all the federal characteristics of
+                    governance such as dual government system</p>
+            </div>
+
+            <div class="Feature_Sub">
+                <img src="Images/speech.png" alt="Parliamentary Form of Gov.">
+                <h3>Parliamentary Form of Gov.</h3>
+                <p>On the pattern of the British parliamentary system of government, the Indian Constitution has opted
+                    for the parliamentary form of government.</p>
+            </div>
+
+            <div class="Feature_Sub">
+                <img src="Images/balance.png" alt="Balanced Judicial Supremacy">
+                <h3>Balanced Judicial Supremacy</h3>
+                <p>A fine balance has been struck between parliamentary sovereignty and judicial supremacy by the Indian
+                    Constitution.</p>
+            </div>
+
+            <div class="Feature_Sub">
+                <img src="Images/hand.png" alt="Independent and Integrated">
+                <h3>Independent and Integrated</h3>
+                <p>In India, unlike the United States where there is a two-tiered judiciary, a single judicial system
+                    prevails with the Supreme Court at the top.</p>
+            </div>
+
+            <div class="Feature_Sub">
+                <img src="Images/india.png" alt="Directive Principles of State Policy">
+                <h3>Directive Principles of State</h3>
+                <p>In Part IV of the Constitution, the Directive Principles of State Policies (DPSPs) aims to make India
+                    a welfare state.</p>
+            </div>
+
+            <div class="Feature_Sub">
+                <img src="Images/flexibility.png" alt="Rigidity and flexibility">
+                <h3>Rigidity and flexibility</h3>
+                <p>The Indian Constitution strikes a fine balance between rigidity and flexibility when it comes to ease
+                    of modification.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer_devider">
+            <div class="footer_box" id="f1">
+                <h4>Disclaimer</h4>
+                <p>
+                    This is not an Official Website of Indian Government, This Website is Just made as Project
+                    for ICFAI University. All information Written in this website are collected from Google and some
+                    third-party Websites.
+                </p>
+            </div>
+            <div class="footer_box" id="f2">
+                <h4>Important Pages</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="laws.html">Laws</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="footer_box" id="f3">
+                <h4>Get in Touch</h4>
+                <h5>Call/Whatsapp</h5>
+                <p>+91 1234567890</p>
+
+                <h5>Mail</h5>
+                <p>contact@g6.in</p>
+
+                <h5>Address</h5>
+                <p>Agartala, West Tripura</p>
+            </div>
+        </div>
+        <div id="Footer_Credit">
+            <p>Copyright 2021 <a href="#">Indian Law</a></a></p>
+        </div>
+    </footer>
+
+    <script>
+        burger = document.querySelector('.burger')
+        Menu = document.querySelector('.menu-items')
+
+
+        burger.addEventListener('click', () => {
+            Menu.classList.toggle('hide-menu');
+        })
+    </script>
+
+</body>
+
+</html>
