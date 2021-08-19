@@ -5,6 +5,9 @@
     scroll-behavior: smooth;
     font-family: sans-serif;
   }
+.h_primary{
+  font-size: 2.5rem;
+}
   nav{
     display: flex;
     flex-wrap: wrap;
@@ -84,9 +87,6 @@
     margin: auto 10px;
     width: 50%;
   }
-#div2 h2{
-    font-size: 2.5rem;
-  }
 #Action_Button {
     margin: 10px 0px;
     padding: 10px 20px;
@@ -109,7 +109,6 @@
   }
   #Section3 h2{
     margin: 25px 0px;
-    font-size: 2.5rem;
   }
   #Section3 p{
     font-size: 1rem;
