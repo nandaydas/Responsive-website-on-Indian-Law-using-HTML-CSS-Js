@@ -76,26 +76,26 @@
     background-size: cover;
   }
 #div1{
-    vertical-align: bottom;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+    width: 40%;
   }
 #div1 img{
-    width: 60%;
-    margin: 0 auto;
+    width: 70%;
   }
 #div2{
     margin: auto 10px;
-    width: 50%;
+    width: 60%;
   }
 #Action_Button {
     margin: 10px 0px;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 12px 30px;
+    font-size: 18px;
     font-weight: bold;
     background-color: #003C7D;
     color: white;
     border: 0px;
-    border-radius: 20px;
+    border-radius: 25px;
   }
 #Action_Button:hover{
     font-size: 16.5px;
