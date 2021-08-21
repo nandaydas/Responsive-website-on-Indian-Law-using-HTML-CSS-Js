@@ -238,6 +238,7 @@
 }
 
 #laws .panel {
+  text-align: left;
   padding: 0 18px;
   background-color: white;
   max-height: 0;
