@@ -87,6 +87,11 @@
     margin: auto 10px;
     width: 60%;
   }
+
+#div2 h2{
+  vertical-align: bottom;
+  height: 6rem;
+}
 #Action_Button {
     margin: 10px 0px;
     padding: 12px 30px;
