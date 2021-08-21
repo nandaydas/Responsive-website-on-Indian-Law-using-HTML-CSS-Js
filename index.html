@@ -9,15 +9,18 @@
     <link rel="stylesheet" href="Style/style.css">
     <link rel="stylesheet" media="screen and (max-width: 720px)" href="Style/mobile.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
 
     <nav class="container">
-        <div class="logo">
-            <img src="Images/balance_white.png" alt="IndianLaw">
-            <h1 class="logo">IndianLaw</h1>
-        </div>
+        <a href="#">
+            <div class="logo">
+                <img src="Images/balance_white.png" alt="IndianLaw">
+                <h1 class="logo">IndianLaw</h1>
+            </div>
+        </a>
 
         <ul class="menu-items hide-menu">
             <li><a class=active href="index.html">Home</a></li>
@@ -202,6 +205,7 @@
                     new TxtRotate(elements[i], JSON.parse(toRotate), period);
                 }
             }
+            // INJECT CSS
             var css = document.createElement("style");
             css.type = "text/css";
             css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
