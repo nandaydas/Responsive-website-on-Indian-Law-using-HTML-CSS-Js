@@ -7,7 +7,7 @@
     text-decoration: none;
   }
 .h_primary{
-  font-size: 2.5rem;
+  font-size: 2.4rem;
 }
   nav{
     display: flex;
@@ -63,11 +63,10 @@
     top: 11px;
     border-radius: 5px;
   }
-  .burger i{
+.burger i{
     font-size: 2rem;
-  }
-
-  section {
+}
+section{
     padding: 50px 100px;
   }
 #Section1{
@@ -138,11 +137,11 @@
     color: #243B56;
     background-color: White;
     border: 1px dotted rgba(44,62,80,0.2);
-    box-shadow: 5px 5px 20px 2px rgba(36, 59, 86, 0.05);
+    box-shadow: 5px 5px 20px 2px #ccd8e5;
   }
   .Feature_Sub:hover{
     transition: 0.5s;
-    box-shadow: 5px 5px 20px 2px #ccd8e5;
+    box-shadow: 5px 5px 20px 2px rgba(36, 59, 86, 0.05);
   }
   .Feature_Sub img{
     padding: 1rem;
@@ -231,12 +230,10 @@
   outline: none;
   transition: 0.4s;
 }
-
 #laws button{
   margin-top: 5px;
   font-size: 16px;
 }
-
 #laws .panel {
   text-align: left;
   padding: 0 18px;
@@ -252,7 +249,6 @@
   float: right;
   margin-left: 5px;
 }
-
 #laws .active:after {
   content: "\2796";
   font-size: 10px;
@@ -260,22 +256,93 @@
 #laws .panel p{
   margin: 10px 2px;
 }
-
 .pages{
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
   background-color: #FAFBFC;
 }
-
 .pages a {
   color: black;
   padding: 8px 16px;
   text-decoration: none;
 }
-
 .pages a.active {
   background-color: #003C7D;
   color: white;
   border-radius: 5px;
+}
+
+/***** Contact Page *****/
+.contact_section h2{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.contact_devider{
+  display: flex;
+  justify-content: space-around;
+}
+.contact_devider div{
+  margin: 1rem;
+  padding: 2rem 1rem;
+  width: 30%;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: #243B56;
+  background-color: White;
+  border: 1px dotted rgba(44,62,80,0.2);
+  box-shadow: 5px 5px 20px 2px #ccd8e5;
+}
+.contact_form{
+  margin: 1rem;
+  padding: 2rem; 
+  border-radius: 0.5rem;
+  color: #243B56;
+  background-color: White;
+  border: 1px dotted rgba(44,62,80,0.2);
+  box-shadow: 5px 5px 20px 2px #ccd8e5;
+}
+.contact_devider div:hover{
+  transition: 0.5s;
+  box-shadow: 5px 5px 20px 2px rgba(36, 59, 86, 0.05);
+}
+.contact_devider i{
+  font-size: 3rem;
+  color: #003C7D;
+}
+.contact_devider h3{
+  margin: 5px 0px;
+}
+.form_group{
+  margin-top: 20px;
+  width: 100%;
+  font-size: 18px;
+}
+.form_group input, textarea{
+  padding: 5px;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #ccd8e5;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+textarea{
+  resize: vertical;
+}
+.contact_section button{
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: #003C7D;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100%;
+  border: 2px solid #003C7D;
+  cursor: pointer;
+}
+.contact_section button:hover{
+  transition: 0.5s;
+  background-color: white;
+  border: 2px solid #003C7D;
+  color: #003C7D;
 }
