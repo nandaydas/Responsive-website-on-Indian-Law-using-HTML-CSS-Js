@@ -5,19 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Law</title>
+    <title>Contact Us - Indian Law</title>
     <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="Style/tablet.css" />
     <link rel="stylesheet" media="screen and (max-width: 720px)" href="Style/mobile.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
 
-    <nav class="container">
-        <div class="logo">
-            <img src="Images/balance_white.png" alt="IndianLaw">
-            <h1 class="logo">IndianLaw</h1>
-        </div>
+    <nav>
+        <a href="index.html">
+            <div class="logo">
+                <img src="Images/balance_white.png" alt="IndianLaw">
+                <h1 class="logo">IndianLaw</h1>
+            </div>
+        </a>
 
         <ul class="menu-items hide-menu">
             <li><a href="index.html">Home</a></li>
@@ -31,6 +35,56 @@
             <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
     </nav>
+    <section class="contact_section">
+        <h2 class="h_primary">Contact Us</h2>
+
+        <div class="contact_devider">
+            <div>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <h3>Email</h3>
+                <p>contact@indianlaw.com<br>Hi@indianlaw.com</p>
+            </div>
+            <div>
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                <h3>WhatsApp</h3>
+                <p>+91 1234567890</br>+91 0000000000</p>
+            </div>
+            <div>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <h3>Address</h3>
+                <p>Agartala, West Tripura,</br>Pin: 799001</p>
+            </div>
+        </div>
+        </br>
+        </br>
+        <h2 class="h_primary">Send us a Message</h2>
+
+        <div class="contact_form">
+            <form action="https://formspree.io/f/mbjqpqvl" method="POST">
+                <div class="form_group">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname">
+                </div>
+
+                <div class="form_group">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+
+                <div class="form_group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                </div>
+
+                <div class="form_group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+
+                <button type="submit" onclick="SendMessage()">SUBMIT</button>
+            </form>
+        </div>
+    </section>
 
     <footer>
         <div id="footer_devider">
@@ -77,6 +131,10 @@
         burger.addEventListener('click', () => {
             Menu.classList.toggle('hide-menu');
         })
+
+        function SendMessage() {
+            alert("Message Sent");
+        }
     </script>
 
 </body>
