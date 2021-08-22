@@ -71,3 +71,13 @@ section{
 #f3{
   width: auto;
 }
+/***** Contact Page *****/
+.contact_devider{
+  flex-direction: column;
+}
+.contact_devider div{
+  width: auto;
+}
+.contact_section h2{
+  margin-bottom: 5px;
+}
