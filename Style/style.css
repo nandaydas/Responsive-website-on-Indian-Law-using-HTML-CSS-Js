@@ -133,11 +133,14 @@ section{
     margin: 1rem;
     padding: 1rem;
     border-radius: 0.5rem;
-    text-align: center;
+
     color: #243B56;
     background-color: White;
     border: 1px dotted rgba(44,62,80,0.2);
     box-shadow: 5px 5px 20px 2px #ccd8e5;
+  }
+  .terms p{
+    margin-top: 10px;
   }
   .Feature_Sub:hover{
     transition: 0.5s;
@@ -272,12 +275,13 @@ section{
   color: white;
   border-radius: 5px;
 }
-
-/***** Contact Page *****/
-.contact_section h2{
+.page_title{
   text-align: center;
   margin-bottom: 15px;
 }
+
+/***** Contact Page *****/
+
 .contact_devider{
   display: flex;
   justify-content: space-around;
