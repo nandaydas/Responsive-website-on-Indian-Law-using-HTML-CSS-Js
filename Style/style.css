@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #003C7D;
+    background-color: #000000;
     top: 0px;
     left: 0px;
     position: sticky;
@@ -30,8 +30,9 @@
 }
   nav h1{
     color: white;
-    font-size: 2rem;
+    /* font-size: 1rem; */
     line-height: 70px;
+    font-size: 25px;
     cursor: pointer;
   }
   nav ul{
@@ -53,6 +54,33 @@
     font-size: 1.1rem;
     line-height: 70px;
   }
+  
+   input[type=text] {
+    float: right;
+    height: 30px;
+    padding: 6px;
+    border: none;
+    /* margin-top: 20px; */
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+   button {
+    float: right;
+    padding: 1px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+   button:hover {
+    background: #ccc;
+  }
+  
+
   .burger{
     padding: 5px 8px;
     color: white;
@@ -156,7 +184,7 @@ section{
   }
 
   footer {
-    background-color: #003C7D;
+    background-color: #000000;
     box-shadow: -0px -0px 5px black;
   }
   #footer_devider {
@@ -203,7 +231,7 @@ section{
   }
   #Footer_Credit {
     padding: 10px 10px;
-    background-color: #003671;
+    background-color: #9b97975b;
   }
   #Footer_Credit p {
     text-align: center;
